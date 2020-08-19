@@ -36,8 +36,11 @@ if (isset($_POST["submit"])) {
 <!DOCTYPE html>
 <html>
 <head>
-<title>Sign Up</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="author" content="Ditiro">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 <script>
     function signupvalidation(){
         var name = document.getElementById('name').value;
